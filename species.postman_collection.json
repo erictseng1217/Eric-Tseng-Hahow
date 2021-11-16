@@ -1,0 +1,734 @@
+{
+	"info": {
+		"_postman_id": "e8dae6b6-95e7-426c-9a29-3cd73bde6bb9",
+		"name": "species",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://swapi.dev/api/people/1/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/1/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/2/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/3/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/4/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/5/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"5",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/10/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"10",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "13",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/13/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"13",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "14",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/14/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"14",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/16/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"16",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "18",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/18/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"18",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "20",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/20/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"20",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "21",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/21/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"21",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "22",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/22/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"22",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "25",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/25/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"25",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "27",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/27/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"27",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "28",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/28/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"28",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "29",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/29/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"29",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "30",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/30/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"30",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "31",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/31/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"31",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "35",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取sepcies的值,通過.獲取 ",
+							"var species = jasondata.species",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/35/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"35",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

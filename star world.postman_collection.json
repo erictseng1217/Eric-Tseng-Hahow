@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "5301c8b7-af63-46d5-bb28-dc51476c0944",
+		"name": "star world",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get character/species from film",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var jasondata = JSON.parse(responseBody)",
+							"// 獲取characters的值",
+							"var characters = jasondata.characters",
+							"var species = jasondata.species",
+							"console.log(characters)",
+							"console.log(species)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/films/3/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"films",
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get episode from film",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);",
+							"for (var i = 0; i < jsonData.results.length; i++) {",
+							"    var episode = jsonData.results[i];",
+							"    console.log(episode.episode_id);",
+							"    console.log(episode.title)",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/films",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get info of vehicles",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//獲取json體數據 ",
+							"var response = JSON.parse(responseBody);",
+							"var speed = response.results.map(function(entry){return entry.accessible_by.name});",
+							"console.log (speed)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/vehicles",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
